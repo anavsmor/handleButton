@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>jQuery</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Registration form</h1>
+			<form id="signinForm">
+				<!-- Add input box -->
+				<div class="input">
+					<label for="name">Name:</label>
+					<input type="text" id="name" size="40" placeholder="Write your full name" />
+				</div>
+				<!-- Add select field -->
+				<div class="course">
+					<label for="course">Course:</label>
+					<select class="course">
+						<option>Psycholosy</option>
+						<option>Art</option>
+						<option>Management</option>
+						<option>IT</option>
+					</select>
+				</div>
+				<br> </br>
+				<!-- Add button -->
+				<div class="button">
+					<button id="button">Submit</button>
+					<!--<input type="button" id="button" value="Click me" /> -->
+				</div>
+			</form>
+		</div>
+		<div id="messages"></div>
+	</body>
+</html>

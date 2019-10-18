@@ -1,0 +1,42 @@
+body {
+	background-color: #4b8862;
+}
+
+.container {
+	position: relative;
+	width: 20rem;
+	margin: 50px auto;
+	margin-top: 16%;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+h1 {
+    text-align: center;
+}
+.input {
+    padding: 20px;
+
+}
+#name {
+    margin-left: 3px ;
+}
+
+.course {
+    padding: 20px;
+    margin-left: 3px ;
+}
+
+#button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4b8862;
+    color: #ffffff;
+    font-size: 100%;
+    outline: 0;
+    cursor: pointer;
+    padding: 20px;
+    
+}
+}
